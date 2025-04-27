@@ -1,5 +1,5 @@
 ---
-nome: 'Nathan Jarvis'
+nome: 'Richard Silverwolf'
 razza: Umano
 titolo:
 - Responsabile Fucina e Armeria
