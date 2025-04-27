@@ -1,4 +1,13 @@
 {{ define "main" }}
+<h1 class="text-center">
+  <i class="fa-duotone fa-regular fa-crow"></i>
+    {{ if .Title }}
+        {{ .Title }}
+    {{ else }}
+        {{ .Site.Title }}
+    {{ end }}
+    <i class="fa-duotone fa-regular fa-crow"></i>
+</h1>
 <div class="text-center">
     <div class="p-note e-content">
       {{ .Content }}
