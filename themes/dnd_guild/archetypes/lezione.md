@@ -1,5 +1,7 @@
 ---
 nome: '{{ replace .File.ContentBaseName "-" " " | title }}'
-razza:
 titolo:
+spazio:
+durata:
+materiali_costi:
 ---

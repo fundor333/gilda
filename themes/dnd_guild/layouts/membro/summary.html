@@ -9,9 +9,9 @@
       <h5 class="card-title"><b><i>{{ .Params.nome }}</i></b></h5>
       <div class="card-text">
         <ul class="list-unstyled">
-          <li><i>{{ .Params.razza }}</i></li>
+          <li><i><a class="link-unstyled" href="{{ "/razza/" | absURL }}{{ .Params.razza | urlize }}"> {{ .Params.razza }}</a></i></li>
           {{range .Params.titolo}}
-            <li>{{ . }}</li>
+            <li><a class="link-unstyled" href="{{ "/titolo/" | absURL }}{{ . | urlize }}"> {{ . }}</a></li>
           {{end}}
         </ul>
       </div>

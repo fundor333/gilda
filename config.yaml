@@ -5,10 +5,6 @@ defaultContentLanguage: it
 
 theme: "dnd_guild"
 
-taxonomies:
-  tag: tags
-category: categories
-
 menu:
   main:
     - name: Home
@@ -19,3 +15,10 @@ menu:
       pre: fa-people
       url: /membro/
       weight: 2
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  razza: "razza"
+  titolo: "titolo"
+  spazio: "spazio"

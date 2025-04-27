@@ -18,11 +18,8 @@ a {
   text-decoration: none;
 }
 
-.card-columns {
-	@include media-breakpoint-only(lg) {
-	  column-count: 4;
-	}
-	@include media-breakpoint-only(xl) {
-	  column-count: 5;
-	}
-      }
+.link-unstyled {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

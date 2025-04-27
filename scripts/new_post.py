@@ -13,6 +13,16 @@ def name_cleaning(name: str) -> str:
     return title
 
 
+def corso_fc():
+    """Create a new course post."""
+    print("Make a corso")
+    name = input("Give me the name\n")
+    title = name_cleaning(name)
+    generated = f"{title}"
+    os.system(f"hugo new  corsi/{generated}/index.md")
+    print(f"Generated {generated}/index.md")
+
+
 def membro_fc():
     """Create a new member post."""
     print("Make a membro")
@@ -27,6 +37,7 @@ def membro_fc():
 
 ANSWER = {
     "membro": membro_fc,
+    "corso": corso_fc,
 }
 
 

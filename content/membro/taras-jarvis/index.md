@@ -4,4 +4,5 @@ razza: Mezzelfo
 titolo:
 - Fondatore
 - Maestro di Ingegneria e Magia
+- Insegnante
 ---
