@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ $.Site.LanguageCode | default " en " }}">
 <head>
   {{ partial "head.html" . }}
 </head>
 <body>
-  <header>
     {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
+    <a id="top"></a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <div class="container-xl">
+      <div class="p-5 container">
 
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+      {{ block "main" . }}{{ end }}
+
+      </div>
+
+      <div class="container">
+      {{ partial "footer.html" . }}
+      </div>
+    </div>
+    {{ partial "script.html" . }}
 </body>
 </html>

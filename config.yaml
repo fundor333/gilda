@@ -1,0 +1,25 @@
+baseurl: "https://gilda.fundor333.com/"
+title: Gilda
+languageCode: it
+defaultContentLanguage: it
+
+theme: "dnd_guild"
+
+taxonomies:
+  tag: tags
+category: categories
+
+menu:
+  main:
+    - name: Home
+      pre: fa-house-turret
+      url: /
+      weight: 1
+    - name: Posts
+      pre: fa-scroll
+      url: /posts/
+      weight: 2
+    - name: Tags
+      pre: fa-tags
+      url: /tags/
+      weight: 3

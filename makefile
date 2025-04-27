@@ -29,7 +29,7 @@ gomodule: ## Update Go Module
 cache: ## Clean the cache
 	@hugo --gc
 
-clean: cach ## Clean the directory of the project of chache e meta file and other things
+clean: cache ## Clean the directory of the project of chache e meta file and other things
 	@find . -type d -empty -delete
 
 .PHONY: run

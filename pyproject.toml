@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "gilda"
+version = "0.1.0"
+description = ""
+authors = ["Fundor333 <fundor333@fundor333.com>"]
+readme = "README.md"
+packages = [{ include = "fundor333" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+feedparser = "*"
+requests = "*"
+python-dotenv = "*"
+weeknotebot = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins.dotenv]
+ignore = "false"
+location = ".env"
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
