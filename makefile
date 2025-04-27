@@ -65,3 +65,8 @@ submodule: ## Get submodule for this repo
 
 precommit: ## Run pre-commit hooks
 	@git add . & poetry run pre-commit run --all-files
+
+
+.PHONY: new
+new: ## Create a new post
+	@poetry run python3 scripts/new_post.py

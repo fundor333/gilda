@@ -5,14 +5,10 @@
 </head>
 <body>
     {{ partial "header.html" . }}
-    <a id="top"></a>
+    <a id="top" class="p-5"></a>
 
     <div class="container-xl">
-      <div class="p-5 container">
-
       {{ block "main" . }}{{ end }}
-
-      </div>
 
       <div class="container">
       {{ partial "footer.html" . }}

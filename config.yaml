@@ -19,7 +19,7 @@ menu:
       pre: fa-scroll
       url: /posts/
       weight: 2
-    - name: Tags
-      pre: fa-tags
-      url: /tags/
+    - name: Membri
+      pre: fa-people
+      url: /membro/
       weight: 3
