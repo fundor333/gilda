@@ -1,4 +1,4 @@
 baseURL = 'https://gilda.fundor333.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Guild Site'
 theme = "dnd_guild"
