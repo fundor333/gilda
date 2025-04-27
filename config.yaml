@@ -15,11 +15,7 @@ menu:
       pre: fa-house-turret
       url: /
       weight: 1
-    - name: Posts
-      pre: fa-scroll
-      url: /posts/
-      weight: 2
     - name: Membri
       pre: fa-people
       url: /membro/
-      weight: 3
+      weight: 2
