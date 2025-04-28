@@ -8,6 +8,7 @@ titolo:
 - Maestro Di Magia
 - Insegnante
 series:
-- Parassita Taras
-- T Taras
+- Alterego di Taras
+- Infezione di Taras
+- Famiglia Jarvis
 ---

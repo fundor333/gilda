@@ -5,5 +5,5 @@ razza:
 titolo:
 - Il Traghettatore
 series:
-- T Taras
+- Alterego di Taras
 ---
