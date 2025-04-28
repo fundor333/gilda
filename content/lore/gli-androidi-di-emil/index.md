@@ -18,7 +18,7 @@ Il loro olio è stato mischiato a del sangue finto, probabilmente per dargli una
 Ad occhio e croce vivono, servono e proteggono Emil, devoti fino alla morte. Eppure ho notato un certo legame tra loro.  Com'è possibile trattandosi di macchine costruite dall'uomo? Possono provare sentimenti? Sono stati programmati così?
 
 ---
->Abbiamo scoperto che all'interno dei corpi dei due androidi vi è una pietra pura: questa funge da "cuore" magico che fornisce energia all'intero sistemata meccanico di 2B e 9S.
-Tuttavia sono cristalli molto fragili, per fortunato sono riuscito a riparare quello di 9S con la semplice formula del "Riparare" (e solo perchè era poco più che una scheggiatura)
+> Abbiamo scoperto che all'interno dei corpi dei due androidi vi è una pietra pura: questa funge da "cuore" magico che fornisce energia all'intero sistema meccanico (e non solo) di 2B e 9S.
+Tuttavia sono cristalli molto fragili, per fortuna sono riuscito a riparare quello di 9S con la semplice formula del "Riparare" (e solo perchè era poco più che una scheggiatura), ma abbastanza sufficiente da creare malfunzionamenti evidenti.
 >
 > Taras
