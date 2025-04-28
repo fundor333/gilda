@@ -9,7 +9,7 @@
   </div>
   <div class="col">
     <br>
-    <h1>{{ .Params.Title }}</h1>
+    <h1>{{ .Params.nome }}</h1>
     <ul class="list-unstyled">
       <li><i><a class="link-unstyled" href="{{ "/razza/" | absURL }}{{ .Params.razza | urlize }}">Razza: {{ .Params.razza }}</a></i></li>
       {{range .Params.titolo}}
