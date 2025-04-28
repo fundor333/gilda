@@ -1,7 +1,7 @@
 ---
 title: 'Appunti Su Draconici'
 nome: 'Appunti Su Draconici'
-razza: Draconici
+razza: Draconico
 titolo:
 - Draconici
 ---
