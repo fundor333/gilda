@@ -1,5 +1,6 @@
 body {
-  color: #222;
+  color: #281B1B;
+  background-color: #F2E9E1;
   font-family: sans-serif;
 }
 
@@ -14,12 +15,22 @@ footer {
 }
 
 a {
-  color: #00e;
+  color: #630A09;
   text-decoration: none;
+}
+
+nav {
+  background-color: rgb(226.5813953488, 206.9069767442, 189.4186046512);
 }
 
 .link-unstyled {
   text-decoration: none;
+  color: #630A09;
+}
+
+.fa-gilda {
+  --fa-primary-color:#630A09;
+  --fa-secondary-color:#A82211;
 }
 
 /*# sourceMappingURL=main.css.map */

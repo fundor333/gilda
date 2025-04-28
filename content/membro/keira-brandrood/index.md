@@ -1,4 +1,5 @@
 ---
+title: 'Keira Brandrood'
 nome: 'Keira Brandrood'
 razza: Mezzorco
 titolo:

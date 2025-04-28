@@ -19,7 +19,7 @@ def corso_fc():
     name = input("Give me the name\n")
     title = name_cleaning(name)
     generated = f"{title}"
-    os.system(f"hugo new  corsi/{generated}/index.md")
+    os.system(f"hugo new  corso/{generated}/index.md")
     print(f"Generated {generated}/index.md")
 
 
@@ -35,9 +35,22 @@ def membro_fc():
     print(f"Generated {generated}/index.md")
 
 
+def spazio_fc():
+    """Create a new space post."""
+    print("Make a spazio")
+    name = input("Give me the name\n")
+    title = name_cleaning(name)
+
+    generated = f"{title}"
+
+    os.system(f"hugo new  spazio/{generated}/_index.md")
+    print(f"Generated {generated}/_index.md")
+
+
 ANSWER = {
     "membro": membro_fc,
     "corso": corso_fc,
+    "spazio": spazio_fc,
 }
 
 

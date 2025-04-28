@@ -1,0 +1,14 @@
+<div class="  col-sm-6 col-lg-4 mb-4">
+  <a href="{{ .RelPermalink }}" class="text-decoration-none">
+  <div class="card">
+      {{ $image := .Resources.GetMatch "{spazio.webp,spazio.jpg,spazio.png,spazio.jpeg}" }}
+      {{ if  $image }}
+        {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
+        <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap">
+      {{end}}
+    <div class="card-body">
+      <h5 class="card-title"><b><i>{{ .Params.Title }}</i></b></h5>
+    </div>
+  </div>
+  </a>
+</div>

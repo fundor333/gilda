@@ -6,7 +6,7 @@
         <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap">
       {{end}}
     <div class="card-body">
-      <h5 class="card-title"><b><i>{{ .Params.nome }}</i></b></h5>
+      <a class="link-unstyled" href="{{ .Permalink }}"><h5 class="card-title"><b><i>{{ .Params.nome }}</i></b></h5></a>
       <div class="card-text">
         <ul class="list-unstyled">
           <li><i><a class="link-unstyled" href="{{ "/razza/" | absURL }}{{ .Params.razza | urlize }}"> {{ .Params.razza }}</a></i></li>

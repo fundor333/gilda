@@ -1,4 +1,5 @@
 ---
+title: 'Newt Tingilye'
 nome: 'Newt Tingilye'
 razza: Elfo dei boschi
 titolo:

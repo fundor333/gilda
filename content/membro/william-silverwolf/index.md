@@ -1,4 +1,5 @@
 ---
+title: 'William Silverwolf'
 nome: 'William Silverwolf'
 razza: Umano
 titolo:

@@ -1,9 +1,9 @@
 <div class="container">
-  <nav id="nav" class="nav justify-content-center fixed-top bg-light">
+  <nav id="nav" class="nav justify-content-center fixed-top">
       {{ range .Site.Menus.main }}
-      <a class="nav-link" href="{{ .URL }}">
+      <a class="nav-link link-unstyled" href="{{ .URL }}">
       {{ if .Pre }}
-      {{ $icon := printf "<i class=\"fa-duotone fa-regular %s\"></i> " .Pre | safeHTML }}
+      {{ $icon := printf "<i class=\"fa-duotone fa-regular %s fa-gilda\"></i> " .Pre | safeHTML }}
       {{ $icon }}
       {{ end }}
       {{ $text := print .Name | safeHTML }}

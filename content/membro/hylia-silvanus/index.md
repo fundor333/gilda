@@ -1,4 +1,5 @@
 ---
+title: 'Hylia Silvanus'
 nome: 'Hylia Silvanus'
 razza: Elfo dei Boschi
 titolo:

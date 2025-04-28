@@ -1,4 +1,5 @@
 ---
+title: 'Chatrine Lizards'
 nome: 'Chatrine Lizards'
 razza: Tiefling
 titolo:

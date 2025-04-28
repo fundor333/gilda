@@ -1,4 +1,5 @@
 ---
+title: 'Taras Jarvis'
 nome: 'Taras Jarvis'
 razza: Mezzelfo
 titolo:

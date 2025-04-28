@@ -1,4 +1,5 @@
 ---
+title: 'Harriet Swan'
 nome: 'Harriet Swan'
 razza: Satiro
 titolo:

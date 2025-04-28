@@ -1,5 +1,13 @@
+$red_color: #630A09;
+$orange_color: #A82211;
+
+$dark_color: #281B1B;
+$light_color: #F2E9E1;
+$medium_color: darken( $light_color, 10%);
+
 body {
-	color: #222;
+	color: #{ $dark_color};
+	background-color: #{ $light_color};
 	font-family: sans-serif;
       }
 
@@ -14,10 +22,19 @@ body {
       }
 
       a {
-	color: #00e;
+	color: $red_color;
 	text-decoration: none;
       }
+      nav {
+	background-color: $medium_color;}
 
       .link-unstyled {
 	text-decoration: none;
+	color: #{ $red_color};
       }
+
+      .fa-gilda{
+	--fa-primary-color:#{ $red_color};
+	--fa-secondary-color:#{$orange_color};
+
+}
