@@ -10,3 +10,6 @@ Offriamo svariati servizi:
 - Accettiamo commissioni (su compenso) per conto terzi
 - Affitto di spazi e strutture
 - Corsi per l'insegnamento di abilitá e competenze di vario tipo
+
+Ci trovate a
+Il passo del corvo - Sparrow Village (Iris)
