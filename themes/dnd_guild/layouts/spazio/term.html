@@ -5,8 +5,12 @@
     {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
     <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap">
   {{end}}
-  <div class="text-center">
-    {{ .Content }}
+  <div class="row">
+    <div class="col col-6 offset-2">
+        <div class="p-note e-content">
+          {{ .Content }}
+        </div>
+    </div>
   </div>
   <br>
   <div class="container">
