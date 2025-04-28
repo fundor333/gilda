@@ -1,7 +1,7 @@
 ---
 title: 'Pietra Pura'
 nome: 'Pietra Pura'
-razza:
+razza: Materiale
 titolo:
 ---
 
