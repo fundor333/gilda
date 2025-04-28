@@ -5,4 +5,4 @@ razza: Mista
 titolo:
 ---
 
-Creature di Arcane
+> Creature di Arcane, bestie e/o persone che hanno deciso di vivere come bestie e/o mercenari.
