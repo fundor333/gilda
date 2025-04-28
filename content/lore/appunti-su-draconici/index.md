@@ -17,6 +17,6 @@ Rimedio per la polvere i pistilli gialli e una Pietra Pura
 
 La pietra pura é un cristallo bianco senza caratteristiche colmo di magia pura e rara. Iris non ne ha piú.
 Originaria di Arcane e solo di contrabbando.
-> Ilian ne possiede uno
+> Hylia ne possiede uno
 
-> Come nasce un draconico? Rachel/Senapin ("mamma") piú drago
+> Come nasce un draconico? Rachel/Seraphin ("mamma") piú drago
