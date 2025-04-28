@@ -37,6 +37,13 @@ nav {
 	background-color: $medium_color;
 }
 
+blockquote {
+	font-family: "Delius Swash Caps", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: large;
+}
+
 @for $i from 1 through 6 {
 	h#{$i} {
 		color: var(--color-link);
