@@ -3,8 +3,10 @@
   <div class="card">
       {{ $image := .Resources.GetMatch "{quest.webp,quest.jpg,quest.png,quest.jpeg}" }}
       {{ if  $image }}
+      {{ $height := $image.Height }}
+      {{ $width := $image.Width }}
         {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
-        <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap">
+        <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap" width="{{ $width }}" height="{{ $height }}">
       {{end}}
     <div class="card-body">
       <a class="link-unstyled" href="{{ .Permalink }}"><h5 class="card-title"><b><i>{{ .Params.title }}</i></b></h5></a>
