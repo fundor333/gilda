@@ -10,6 +10,12 @@ header {
   margin-bottom: 1rem;
 }
 
+h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 footer {
   border-top: 1px solid #222;
   margin-top: 1rem;
@@ -21,7 +27,7 @@ a {
 }
 
 nav {
-  background-color: rgb(226.5813953488, 206.9069767442, 189.4186046512);
+  background-color: #e3cfbd;
 }
 
 .link-unstyled {
@@ -32,6 +38,10 @@ nav {
 .fa-gilda {
   --fa-primary-color: #630a09;
   --fa-secondary-color: #a82211;
+}
+
+.navbar-brand {
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div class="row">
-  <div class="col-sm-6 col-lg-4 mb-4 text-center">
+  <div class="col-6 mb-4 text-center col-center">
     {{ $image := .Resources.GetMatch "{avatar.webp,avatar.jpg,avatar.png,avatar.jpeg}" }}
     {{ if  $image }}
       {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
-      <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap">
+      <img class="img-thumbnail rounded card-img-top img-responsive" src="{{ $image.Permalink }}"alt="Card image cap">
     {{end}}
   </div>
   <div class="col text-center">

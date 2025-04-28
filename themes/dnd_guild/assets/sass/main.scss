@@ -1,40 +1,51 @@
-$red_color: #630A09;
-$orange_color: #A82211;
+$red_color: #630a09;
+$orange_color: #a82211;
 
-$dark_color: #281B1B;
-$light_color: #F2E9E1;
-$medium_color: darken( $light_color, 10%);
+$dark_color: #281b1b;
+$light_color: #f2e9e1;
+$medium_color: darken($light_color, 10%);
 
 body {
-	color: #{ $dark_color};
-	background-color: #{ $light_color};
+	color: #{$dark_color};
+	background-color: #{$light_color};
 	font-family: sans-serif;
-      }
+	padding-top: 50px;
+}
 
-      header {
+header {
 	border-bottom: 1px solid #222;
 	margin-bottom: 1rem;
-      }
+}
 
-      footer {
+h1 {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
 	border-top: 1px solid #222;
 	margin-top: 1rem;
-      }
+}
 
-      a {
+a {
 	color: $red_color;
 	text-decoration: none;
-      }
-      nav {
-	background-color: $medium_color;}
+}
+nav {
+	background-color: $medium_color;
+}
 
-      .link-unstyled {
+.link-unstyled {
 	text-decoration: none;
-	color: #{ $red_color};
-      }
+	color: #{$red_color};
+}
 
-      .fa-gilda{
-	--fa-primary-color:#{ $red_color};
-	--fa-secondary-color:#{$orange_color};
+.fa-gilda {
+	--fa-primary-color: #{$red_color};
+	--fa-secondary-color: #{$orange_color};
+}
 
+.navbar-brand {
+	padding-left: 10px;
 }
