@@ -10,6 +10,7 @@ titolo:
 > - ~~Ocheti pocheti, Okety,~~ Hockety Pockety: x spostare gli oggetti
 > - ~~Och~~ Hockety ~~wa,ua~~ Hockety Wack:  x rimpicciolire gli oggetti
 > - ~~Abbra-cabbra?~~ Abra-cabra-dabra-da: x ingrandire gli oggetti
+>
 > Spero di averle scritte giuste...
 >
 > Taras
