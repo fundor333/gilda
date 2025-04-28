@@ -5,6 +5,7 @@ razza: Gorgone
 titolo:
 series:
 - Famiglia della Gorgone
+- Famiglia del fattore
 ---
 
 Gorgone/Mezza Gorgone?

@@ -6,4 +6,6 @@ titolo:
 - Capitano delle Fenici
 - Fenici
 - Braccio Destro Di Lady Feris
+series:
+- Squadra delle Fenici
 ---

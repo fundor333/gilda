@@ -6,4 +6,6 @@ titolo:
 - Maestro Di Medicina
 - Responsabile Dell Orto
 - Insegnante
+series:
+- Famiglia del fattore
 ---
