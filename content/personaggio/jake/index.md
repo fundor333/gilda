@@ -1,7 +1,9 @@
 ---
 title: 'Jake'
 nome: 'Jake'
-razza:
+razza: Mezzorco
 titolo:
-- Capitano
+- Capitano delle Fenici
+- Fenici
+- Braccio Destro Di Lady Feris
 ---
