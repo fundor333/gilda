@@ -11,6 +11,7 @@ taxonomies:
   razza: "razza"
   titolo: "titolo"
   spazio: "spazio"
+  series: series
 
 menu:
   main:

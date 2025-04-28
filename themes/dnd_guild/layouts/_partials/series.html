@@ -1,0 +1,28 @@
+
+{{- if .Params.series -}}
+  <div class="post-series-bottom">
+    {{- with (.GetTerms "series") -}}
+      {{- range . -}}
+        {{- $series := .Pages.ByDate -}}
+        <details class="entry-toc">
+          <summary>
+            <span class="entry-toc-header">
+              Fa parte di <strong>{{ .Title }}</strong>
+            </span>
+          </summary>
+          <ul>
+            {{- range $series -}}
+            <li>
+              {{- if eq .File.UniqueID $.File.UniqueID -}}
+                <b>{{ .Title }}</b>
+              {{- else -}}
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              {{- end -}}
+            </li>
+            {{- end -}}
+          </ul>
+        </details>
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}

@@ -4,4 +4,6 @@ nome: 'Thomas'
 razza: Parassita Carceriere
 titolo:
 - Parassita
+series:
+- Parassita Taras
 ---

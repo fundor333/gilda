@@ -17,6 +17,7 @@
       {{end}}
       <br>
       <h2>Corsi che tiene</h2>
+      <ul class="list-unstyled">
 
       {{range .Params.titolo}}
         {{ $titolo := . }}
@@ -25,10 +26,13 @@
         {{range $corsi }}
           {{ $corso := . }}
           {{if (in .Params.docenti $titolo ) }}
-          <a class="link-unstyled" href="{{ $corso.RelPermalink }}">{{ $corso.Title }}</a>
+          <li>          <a class="link-unstyled" href="{{ $corso.RelPermalink }}">{{ $corso.Title }}</a><li>
           {{end}}
         {{end}}
       {{end}}
+      </ul>
+      {{ partial "series.html" . }}
+
 
     </ul>
   </div>

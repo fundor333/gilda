@@ -7,4 +7,7 @@ titolo:
 - Maestro Di Ingegneria
 - Maestro Di Magia
 - Insegnante
+series:
+- Parassita Taras
+- T Taras
 ---

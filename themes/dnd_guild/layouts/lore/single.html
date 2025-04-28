@@ -16,6 +16,8 @@
         <li><a class="link-unstyled" href="{{ "/titolo/" | absURL }}{{ . | urlize }}"> {{ . }}</a></li>
       {{end}}
     </ul>
+    {{ partial "series.html" . }}
+
     <div class="row">
       {{.Content}}
     </div>
