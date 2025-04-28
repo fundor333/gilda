@@ -71,12 +71,25 @@ def personaggio_fc():
     print(f"Generated {generated}/index.md")
 
 
+def bestiario_fc():
+    """Create a new bestiario post."""
+    print("Make a bestiario")
+    name = input("Give me the name\n")
+    title = name_cleaning(name)
+
+    generated = f"{title}"
+
+    os.system(f"hugo new bestiario/{generated}/index.md")
+    print(f"Generated {generated}/index.md")
+
+
 ANSWER = {
     "membro": membro_fc,
     "corso": corso_fc,
     "spazio": spazio_fc,
     "quest": quest_fc,
     "personaggio": personaggio_fc,
+    "bestiario": bestiario_fc,
 }
 
 

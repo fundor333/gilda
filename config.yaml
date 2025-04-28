@@ -38,3 +38,7 @@ menu:
       pre: fa-address-book
       url: /personaggio/
       weight: 6
+    - name: Bestiario
+      pre: fa-dragon
+      url: /bestiario/
+      weight: 6

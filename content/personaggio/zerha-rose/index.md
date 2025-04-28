@@ -4,4 +4,6 @@ nome: 'Zerha Rose'
 razza:
 titolo:
 - Bandita
+- Parassita
+
 ---
