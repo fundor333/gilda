@@ -1,6 +1,8 @@
 ---
 title: 'Coline'
-nome: 'Coline'
-razza:
+nome: 'Coline Incart'
+razza: Umano
 titolo:
+- Gran Magister della Verstad
+- Verstad
 ---
