@@ -1,7 +1,7 @@
 ---
 title: 'Zerha Rose'
 nome: 'Zerha Rose'
-razza:
+razza: Parassita Carceriere
 titolo:
 - Bandita
 - Parassita

@@ -1,6 +1,8 @@
 ---
 title: 'Berseker'
 nome: 'Berseker'
-razza:
+razza: Mista
 titolo:
 ---
+
+Creature di Arcane

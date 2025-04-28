@@ -1,7 +1,7 @@
 ---
 title: 'Ethan'
 nome: 'Ethan'
-razza:
+razza: Parassita Carceriere
 titolo:
 - Parassita
 ---

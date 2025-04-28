@@ -1,7 +1,7 @@
 ---
 title: 'Thomas'
 nome: 'Thomas'
-razza:
+razza: Parassita Carceriere
 titolo:
 - Parassita
 ---
