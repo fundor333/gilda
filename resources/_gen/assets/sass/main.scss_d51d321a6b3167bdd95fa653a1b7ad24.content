@@ -79,14 +79,21 @@ h6 svg {
   color: var(--color-font);
 }
 
-.link-unstyled {
-  text-decoration: none;
-  color: #630a09;
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
 }
 
 .fa-gilda {
   --fa-primary-color: #630a09;
   --fa-secondary-color: #a82211;
+}
+
+.link-unstyled {
+  text-decoration: none;
+  color: #630a09;
 }
 
 .navbar-brand {

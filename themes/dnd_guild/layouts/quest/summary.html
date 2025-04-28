@@ -1,0 +1,14 @@
+<div class="col-sm-6 col-lg-4 mb-4">
+  <a class="link-unstyled" href="{{ .Permalink }}">
+  <div class="card">
+      {{ $image := .Resources.GetMatch "{quest.webp,quest.jpg,quest.png,quest.jpeg}" }}
+      {{ if  $image }}
+        {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
+        <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap">
+      {{end}}
+    <div class="card-body">
+      <a class="link-unstyled" href="{{ .Permalink }}"><h5 class="card-title"><b><i>{{ .Params.title }}</i></b></h5></a>
+    </div>
+  </div>
+  </a>
+</div>

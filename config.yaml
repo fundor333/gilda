@@ -30,3 +30,7 @@ menu:
       pre: fa-door-open
       url: /spazio/
       weight: 4
+    - name: Bacheca delle Quest
+      pre: fa-map-pin
+      url: /quest/
+      weight: 5

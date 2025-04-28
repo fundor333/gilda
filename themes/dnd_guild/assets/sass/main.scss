@@ -47,14 +47,21 @@ nav {
 	}
 }
 
-.link-unstyled {
-	text-decoration: none;
-	color: #{$red_color};
+.delius-swash-caps-regular {
+	font-family: "Delius Swash Caps", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: large;
 }
 
 .fa-gilda {
 	--fa-primary-color: #{$red_color};
 	--fa-secondary-color: #{$orange_color};
+}
+
+.link-unstyled {
+	text-decoration: none;
+	color: #{$red_color};
 }
 
 .navbar-brand {

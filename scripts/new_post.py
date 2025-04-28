@@ -47,10 +47,23 @@ def spazio_fc():
     print(f"Generated {generated}/_index.md")
 
 
+def quest_fc():
+    """Create a new quest post."""
+    print("Make a quest")
+    name = input("Give me the name\n")
+    title = name_cleaning(name)
+
+    generated = f"{title}"
+
+    os.system(f"hugo new quest/{generated}/index.md")
+    print(f"Generated {generated}/index.md")
+
+
 ANSWER = {
     "membro": membro_fc,
     "corso": corso_fc,
     "spazio": spazio_fc,
+    "quest": quest_fc,
 }
 
 

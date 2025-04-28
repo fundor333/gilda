@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="row">
+  <div class="col-6 mb-4 text-center col-center">
+    {{ $image := .Resources.GetMatch "{quest.webp,quest.jpg,quest.png,quest.jpeg}" }}
+    {{ if  $image }}
+      {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
+      <img class="img-thumbnail rounded card-img-top img-responsive" src="{{ $image.Permalink }}"alt="Card image cap">
+    {{end}}
+  </div>
+  <div class="col">
+    <br>
+    <h1>{{ .Params.Title }}</h1>
+    <div class="delius-swash-caps-regular">
+      <figure>
+        <blockquote class="blockquote">
+          {{.Content}}
+        </blockquote>
+        <figcaption class="blockquote-footer ">
+          {{ .Params.firma }}
+        </figcaption>
+    </div>
+  </div>
+</div>
+
+
+{{ end }}
