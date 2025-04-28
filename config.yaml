@@ -41,4 +41,8 @@ menu:
     - name: Bestiario
       pre: fa-dragon
       url: /bestiario/
-      weight: 6
+      weight: 7
+    - name: Lore
+      pre: fa-book
+      url: /lore/
+      weight: 8

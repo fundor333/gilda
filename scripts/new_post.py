@@ -83,12 +83,25 @@ def bestiario_fc():
     print(f"Generated {generated}/index.md")
 
 
+def lore_fc():
+    """Create a new lore post."""
+    print("Make a lore")
+    name = input("Give me the name\n")
+    title = name_cleaning(name)
+
+    generated = f"{title}"
+
+    os.system(f"hugo new lore/{generated}/index.md")
+    print(f"Generated {generated}/index.md")
+
+
 ANSWER = {
     "membro": membro_fc,
     "corso": corso_fc,
     "spazio": spazio_fc,
     "quest": quest_fc,
     "personaggio": personaggio_fc,
+    "lore": lore_fc,
     "bestiario": bestiario_fc,
 }
 
