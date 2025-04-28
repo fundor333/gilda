@@ -34,3 +34,7 @@ menu:
       pre: fa-map-pin
       url: /quest/
       weight: 5
+    - name: Contatti
+      pre: fa-address-book
+      url: /personaggio/
+      weight: 6

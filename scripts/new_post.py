@@ -59,11 +59,24 @@ def quest_fc():
     print(f"Generated {generated}/index.md")
 
 
+def personaggio_fc():
+    """Create a new character post."""
+    print("Make a personaggio")
+    name = input("Give me the name\n")
+    title = name_cleaning(name)
+
+    generated = f"{title}"
+
+    os.system(f"hugo new personaggio/{generated}/index.md")
+    print(f"Generated {generated}/index.md")
+
+
 ANSWER = {
     "membro": membro_fc,
     "corso": corso_fc,
     "spazio": spazio_fc,
     "quest": quest_fc,
+    "personaggio": personaggio_fc,
 }
 
 
