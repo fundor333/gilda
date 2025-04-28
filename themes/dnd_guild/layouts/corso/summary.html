@@ -1,7 +1,7 @@
-<div class="col-6 mb-4">
+<div class="col-sm-6 col-lg-4 mb-4">
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title"><b><i>{{ .Params.titolo }}</i></b></h5>
+      <h5 class="card-title"><b><i>{{ .Params.title }}</i></b></h5>
       <div class="card-text">
         <ul class="list-unstyled">
           <li><i><a class="link-unstyled" href="{{ "/spazio/" | absURL }}{{ .Params.spazio | urlize }}"> {{ .Params.spazio }}</a></i></li>
@@ -21,7 +21,6 @@
               {{end }}
             {{end}}
           {{end}}
-          </div>
           <li><b>{{ .Params.durata}}</b> + {{ .Params.materiali_costi }} </li>
         </ul>
       </div>

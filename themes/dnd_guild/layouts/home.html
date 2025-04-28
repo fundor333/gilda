@@ -8,9 +8,33 @@
     {{ end }}
     <i class="fa-duotone fa-regular fa-crow fa-flip-horizontal fa-gilda"></i>
 </h1>
-<div class="text-center">
-    <div class="p-note e-content">
-      {{ .Content }}
+<div class="row">
+  <div class="col col-6 offset-2">
+      <div class="p-note e-content">
+        {{ .Content }}
+      </div>
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+    <h2>Alcuni dei nostri Corsi</h2>
+    <div class="row" data-masonry='{"percentPosition": true }'>
+      {{ $membri := where .Site.RegularPages "Type" "eq" "corso" }}
+      {{ range first 6 (shuffle $membri) }}
+            {{ .Render "summary"  }}
+      {{end}}
     </div>
 </div>
+
+<div class="container">
+  <h2>Alcuni dei nostri Spazi Comuni</h2>
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    {{ range  .Site.Taxonomies.spazio  }}
+      {{ .Page.Render "summary" }}
+    {{ end }}
+  </div>
+</div>
+
 {{ end }}

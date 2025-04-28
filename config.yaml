@@ -26,7 +26,7 @@ menu:
       pre: fa-book-open
       url: /corso/
       weight: 3
-    - name: Spazio
+    - name: Spazi della Gilda
       pre: fa-door-open
       url: /spazio/
       weight: 4

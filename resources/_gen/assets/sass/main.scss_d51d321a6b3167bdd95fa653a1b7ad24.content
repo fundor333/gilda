@@ -3,6 +3,7 @@ body {
   background-color: #f2e9e1;
   font-family: sans-serif;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 header {
@@ -28,6 +29,54 @@ a {
 
 nav {
   background-color: #e3cfbd;
+}
+
+h1 {
+  color: var(--color-link);
+}
+
+h1 svg {
+  color: var(--color-font);
+}
+
+h2 {
+  color: var(--color-link);
+}
+
+h2 svg {
+  color: var(--color-font);
+}
+
+h3 {
+  color: var(--color-link);
+}
+
+h3 svg {
+  color: var(--color-font);
+}
+
+h4 {
+  color: var(--color-link);
+}
+
+h4 svg {
+  color: var(--color-font);
+}
+
+h5 {
+  color: var(--color-link);
+}
+
+h5 svg {
+  color: var(--color-font);
+}
+
+h6 {
+  color: var(--color-link);
+}
+
+h6 svg {
+  color: var(--color-font);
 }
 
 .link-unstyled {

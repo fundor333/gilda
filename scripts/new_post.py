@@ -19,7 +19,7 @@ def corso_fc():
     name = input("Give me the name\n")
     title = name_cleaning(name)
     generated = f"{title}"
-    os.system(f"hugo new  corso/{generated}/index.md")
+    os.system(f"hugo new corso/{generated}/index.md")
     print(f"Generated {generated}/index.md")
 
 
@@ -31,7 +31,7 @@ def membro_fc():
 
     generated = f"{title}"
 
-    os.system(f"hugo new  membro/{generated}/index.md")
+    os.system(f"hugo new membro/{generated}/index.md")
     print(f"Generated {generated}/index.md")
 
 
@@ -43,7 +43,7 @@ def spazio_fc():
 
     generated = f"{title}"
 
-    os.system(f"hugo new  spazio/{generated}/_index.md")
+    os.system(f"hugo new spazio/{generated}/_index.md")
     print(f"Generated {generated}/_index.md")
 
 

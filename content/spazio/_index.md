@@ -1,5 +1,5 @@
 ---
-title: "Spazi comuni utilizzabili"
+title: "Spazi Comuni utilizzabili"
 ---
 
 
