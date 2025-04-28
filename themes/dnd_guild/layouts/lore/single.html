@@ -11,7 +11,7 @@
     <br>
     <h1>{{ .Params.nome }}</h1>
     <ul class="list-unstyled">
-      <li><i><a class="link-unstyled" href="{{ "/razza/" | absURL }}{{ .Params.razza | urlize }}">Razza: {{ .Params.razza }}</a></i></li>
+      <li><i><a class="link-unstyled" href="{{ "/razza/" | absURL }}{{ .Params.razza | urlize }}">{{ .Params.razza }}</a></i></li>
       {{range .Params.titolo}}
         <li><a class="link-unstyled" href="{{ "/titolo/" | absURL }}{{ . | urlize }}"> {{ . }}</a></li>
       {{end}}
