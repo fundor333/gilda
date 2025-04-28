@@ -7,10 +7,10 @@
         <details class="entry-toc">
           <summary>
             <span class="entry-toc-header">
-              Fa parte di <strong>{{ .Title }}</strong>
+              <strong>{{ .Title }}</strong>
             </span>
           </summary>
-          <ul>
+          <ul class="list-unstyled">
             {{- range $series -}}
             <li>
               {{- if eq .File.UniqueID $.File.UniqueID -}}

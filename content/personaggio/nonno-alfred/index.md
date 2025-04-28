@@ -5,4 +5,6 @@ razza: Umano
 titolo:
 - Fattore
 - Druido
+series:
+- Famiglia del fattore
 ---

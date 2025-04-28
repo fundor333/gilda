@@ -3,6 +3,8 @@ title: 'Esme'
 nome: 'Esme'
 razza: Gorgone
 titolo:
+series:
+- Famiglia della Gorgone
 ---
 
 Gorgone/Mezza Gorgone?
