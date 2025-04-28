@@ -6,4 +6,6 @@ titolo:
 - Fondatore
 - Maestro Di Spada E Scudo
 - Insegnante
+series:
+- Famiglia Silverwolf
 ---
