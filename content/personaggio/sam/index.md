@@ -1,6 +1,6 @@
 ---
 title: 'Sam'
 nome: 'Sam'
-razza:
+razza: Dragonide
 titolo:
 ---

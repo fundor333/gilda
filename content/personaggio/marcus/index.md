@@ -1,6 +1,6 @@
 ---
 title: 'Marcus'
 nome: 'Marcus'
-razza:
+razza: Tiefling
 titolo:
 ---

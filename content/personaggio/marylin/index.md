@@ -1,6 +1,6 @@
 ---
 title: 'Marylin'
 nome: 'Marylin'
-razza:
+razza: Dragonide
 titolo:
 ---
