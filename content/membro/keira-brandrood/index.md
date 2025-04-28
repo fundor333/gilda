@@ -4,6 +4,6 @@ nome: 'Keira Brandrood'
 razza: Mezzorco
 titolo:
 - Fondatore
-- Maestro di Musica (Strumenti a fiato)
+- Maestro Di Musica (Strumenti A Fiato)
 - Insegnante
 ---

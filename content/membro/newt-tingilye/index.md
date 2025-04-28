@@ -4,6 +4,7 @@ nome: 'Newt Tingilye'
 razza: Elfo dei boschi
 titolo:
 - Fondatore
-- Maestro di Tiro con l'arco e Sopravvivenza
+- Maestro Di Tiro Con L Arco
+- Maestro Di Sopravvivenza
 - Insegnante
 ---

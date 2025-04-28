@@ -16,7 +16,7 @@
               {{ $membro := . }}
               {{ range (.GetTerms "titolo")}}
                 {{if in .LinkTitle $docente}}
-                  <a class="link-unstyled" href="{{ $membro.RelPermalink }}">{{ $membro.Title }} </a>
+                  <a class="link-unstyled" href="{{ $membro.RelPermalink }}">{{ $membro.Title }}, </a>
                 {{end}}
               {{end }}
             {{end}}

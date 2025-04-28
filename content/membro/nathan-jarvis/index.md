@@ -3,5 +3,5 @@ title: 'Nathan Jarvis'
 nome: 'Nathan Jarvis'
 razza: Umano
 titolo:
-- Responsabile Fucina e Armeria
+- Responsabile Fucina E Armeria
 ---

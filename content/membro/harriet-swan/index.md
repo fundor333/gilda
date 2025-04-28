@@ -3,7 +3,7 @@ title: 'Harriet Swan'
 nome: 'Harriet Swan'
 razza: Satiro
 titolo:
-- Maestro di Medicina
-- Responsabile dell'Orto
+- Maestro Di Medicina
+- Responsabile Dell Orto
 - Insegnante
 ---

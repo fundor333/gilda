@@ -3,5 +3,5 @@ title: 'Richard Silverwolf'
 nome: 'Richard Silverwolf'
 razza: Umano
 titolo:
-- Responsabile Fucina e Armeria
+- Responsabile Fucina E Armeria
 ---

@@ -4,8 +4,8 @@ nome: 'Taras Jarvis'
 razza: Mezzelfo
 titolo:
 - Fondatore
-- Maestro di Ingegneria
-- Maestro di Magia
-- Maestro di Alchimia
+- Maestro Di Ingegneria
+- Maestro Di Magia
+- Maestro Di Alchimia
 - Insegnante
 ---
