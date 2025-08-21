@@ -1,24 +1,24 @@
 {{ define "main" }}
-  <h1 class="text-center"><i class="fa-duotone fa-regular fa-crow fa-gilda"></i>{{ .Title }}<i class="fa-duotone fa-regular fa-crow fa-flip-horizontal fa-gilda"></i></h1>
-  {{ $image := .Resources.GetMatch "{spazio.webp,spazio.jpg,spazio.png,spazio.jpeg}" }}
-  {{ if  $image }}
-    {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
-    <img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}"alt="Card image cap">
-  {{end}}
-  <div class="row">
-    <div class="col col-6 offset-2">
-        <div class="p-note e-content">
-          {{ .Content }}
-        </div>
+<h1 class="text-center"><i class="fa-duotone fa-regular fa-crow fa-gilda"></i>{{ .Title }}<i
+    class="fa-duotone fa-regular fa-crow fa-flip-horizontal fa-gilda"></i></h1>
+{{ $image := .Resources.GetMatch "{spazio.webp,spazio.jpg,spazio.png,spazio.jpeg}" }}
+{{ if $image }}
+{{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
+<img class="img-thumbnail rounded card-img-top" src="{{ $image.Permalink }}" alt="Card image cap">
+{{end}}
+<div class="row">
+  <div class="col col-6 offset-2">
+    <div class="p-note e-content">
+      {{ .Content }}
     </div>
   </div>
-  <br>
-  <div class="container">
-
-      <div class="row masonry" data-masonry='{"percentPosition": true }'>
-      {{ range .Pages }}
-        {{ .Render "summary"  }}
-      {{ end }}
-      </div>
+</div>
+<br>
+<div class="container">
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
+    {{ range .Pages }}
+    {{ .Render "summary" }}
+    {{ end }}
   </div>
+</div>
 {{ end }}
