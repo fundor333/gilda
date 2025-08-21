@@ -1,0 +1,13 @@
+<div class="container d-flex align-items-center justify-content-center">
+  {{- if .IsBlock -}}
+  <figure>
+    <img class="img-thumbnail rounded card-img-top" src="{{ .Destination | safeURL }}"
+      {{- with .PlainText }} alt="{{ . }}" {{ end -}}>
+    {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
+  </figure>
+  {{- else -}}
+  <img class="img-thumbnail rounded card-img-top" src="{{ .Destination | safeURL }}"
+    {{- with .PlainText }} alt="{{ . }}" {{ end -}}
+    {{- with .Title }} title="{{ . }}" {{ end -}}>
+  {{- end -}}
+</div>
