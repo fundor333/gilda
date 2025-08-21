@@ -47,3 +47,7 @@ menu:
       pre: fa-book
       url: /lore/
       weight: 8
+    - name: Linea Temporale
+      pre: fa-hourglass-half
+      url: /linea-temporale/
+      weight: 9
