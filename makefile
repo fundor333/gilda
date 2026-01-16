@@ -5,9 +5,9 @@ help: ## Show this help
 install: ## Intall
 	@npm install
 	@hugo mod get -u
-	@poetry install --no-root
-	@poetry run pre-commit install
-	@poetry run pre-commit autoupdate
+	@uv sync
+	@uv run pre-commit install
+	@uv run pre-commit autoupdate
 
 
 develop: ## Run the site localy
@@ -49,7 +49,7 @@ deploy: clean ## Ready to deploy
 	@poetry export --without-hashes --format=requirements.txt > requirements.txt
 	@hugo mod get -u
 	@hugo --minify
-	@poetry run pre-commit autoupdate
+	@uv run pre-commit autoupdate
 
 
 deploy_prod:  ## Ready to deploy
@@ -64,9 +64,9 @@ submodule: ## Get submodule for this repo
 
 
 precommit: ## Run pre-commit hooks
-	@git add . & poetry run pre-commit run --all-files
+	@git add . & uv run pre-commit run --all-files
 
 
 .PHONY: new
 new: ## Create a new post
-	@poetry run python3 scripts/new_post.py
+	@uv run python3 scripts/new_post.py

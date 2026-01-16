@@ -1,29 +1,38 @@
-[tool.poetry]
+[project]
 name = "gilda"
 version = "0.1.0"
 description = ""
-authors = ["Fundor333 <fundor333@fundor333.com>"]
+authors = [{ name = "Fundor333", email = "fundor333@fundor333.com" }]
+requires-python = ">=3.11,<4"
 readme = "README.md"
-packages = [{ include = "fundor333" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "feedparser",
+    "requests",
+    "python-dotenv",
+    "weeknotebot",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-feedparser = "*"
-requests = "*"
-python-dotenv = "*"
-weeknotebot = "*"
-
-
-[tool.poetry.group.dev.dependencies]
-pre-commit = "^4.1.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.plugins.dotenv]
+[project.entry-points.dotenv]
 ignore = "false"
 location = ".env"
 
-[tool.poetry.requires-plugins]
-poetry-plugin-export = ">=1.8"
+[dependency-groups]
+dev = ["pre-commit>=4.1.0,<5"]
+
+[tool.uv]
+
+[tool.uv.build-backend]
+module-name = ["fundor333"]
+module-root = ""
+namespace = true
+
+[build-system]
+requires = ["uv_build>=0.9.21,<0.10.0"]
+build-backend = "uv_build"
