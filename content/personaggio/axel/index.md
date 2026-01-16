@@ -1,8 +1,9 @@
 ---
 title: 'Axel'
 nome: 'Axel'
-razza: Licantropo
+razza: Mezzelfo
 titolo:
+- Licantropo
 ---
 
 ![forma alternativa](forma_alternativa.png)
