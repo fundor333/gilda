@@ -8,6 +8,7 @@ titolo:
 - Maestro Di Magia
 - Insegnante
 - PNG
+- Ospite di parassita
 series:
 - Alterego di Taras
 - Infezione di Taras
