@@ -1,6 +1,6 @@
 ---
-title: 'Axel'
-nome: 'Axel'
+title: 'Axel Moroe'
+nome: 'Axel Moore'
 razza: Mezzelfo
 titolo:
 - Licantropo
